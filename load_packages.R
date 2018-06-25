@@ -1,7 +1,7 @@
 # load_packages
 
 # List of packages for session
-.packages = c("rms","Hmisc","tableone","MASS")
+.packages = c("openxlsx")
 
 # Install CRAN packages (if not already installed)
 .inst <- .packages %in% installed.packages()
